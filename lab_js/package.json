@@ -1,0 +1,12 @@
+{
+  "name": "web-service-lab",
+  "version": "1.0.0",
+  "description": "Лабораторная работа №1 — REST API для управления списком студентов (Node.js + Express)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

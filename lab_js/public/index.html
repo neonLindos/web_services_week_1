@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Журнал группы</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <header class="app-header">
+        <h1>Журнал группы</h1>
+        <p class="subtitle">Учёт студентов — REST API на Express</p>
+    </header>
+
+    <section class="panel">
+        <form id="studentForm" class="student-form">
+            <input
+                type="text"
+                id="name"
+                placeholder="ФИО студента"
+                autocomplete="off"
+                required
+            >
+
+            <input
+                type="text"
+                id="group"
+                placeholder="Группа (например, ИС-21)"
+                autocomplete="off"
+                required
+            >
+
+            <button type="submit">Добавить</button>
+        </form>
+
+        <input
+            type="text"
+            id="search"
+            class="search"
+            placeholder="Поиск по имени или группе..."
+        >
+    </section>
+
+    <section class="panel">
+        <div class="list-header">
+            <span>Студенты</span>
+            <span id="count" class="count">0</span>
+        </div>
+
+        <ul id="students" class="student-list"></ul>
+
+        <p id="empty" class="empty" hidden>Никого не найдено</p>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
