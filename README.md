@@ -2,6 +2,14 @@
 
 Первая тема курса **«Разработка веб-сервисов»**: первая конечная точка Web API, HTTP-методы GET/POST, тестирование через Swagger. Задания выдавались в двух вариантах — на ASP.NET Core и (позже) на Node.js/Express — оба решения включены.
 
+## Все работы по курсу CSE5032
+
+| Неделя | Тема | Репозиторий |
+|---|---|---|
+| 1 | Введение в ASP.NET Core | **этот репозиторий** |
+| 2 | Web API + CRUD | [web_services_week_2](https://github.com/neonLindos/web_services_week_2) |
+| 3 | Dependency Injection и логирование | [web_services_week_3](https://github.com/neonLindos/web_services_week_3) |
+
 | Работа | Проект | Ресурс | Стек | Endpoint'ы |
 |--------|--------|--------|------|-----------|
 | [homework/](homework/) | `WebApiLab1` | Student | ASP.NET Core, .NET 8 | `GET /api/students`, `GET /api/students/{id}`, `POST /api/students` |
